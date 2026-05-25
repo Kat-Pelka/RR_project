@@ -9,8 +9,6 @@ __pycache__/
 venv/
 .env/
 
-# Outputs
-outputs/
 
 # Processed data
 data/processed/
