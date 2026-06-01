@@ -13,6 +13,9 @@ venv/
 # Processed data
 data/processed/
 
+# Model artifacts
+outputs/models/
+
 # VS Code
 .vscode/
 
