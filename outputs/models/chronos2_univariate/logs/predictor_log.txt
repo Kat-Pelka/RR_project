@@ -1,0 +1,46 @@
+Beginning AutoGluon training...
+AutoGluon will save models to '/Users/pawelkazimiruk/Desktop/RR_project/RR_project/outputs/models/chronos2_univariate'
+=================== System Info ===================
+AutoGluon Version:  1.5.0
+Python Version:     3.13.1
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 23.6.0: Fri Jul  5 18:01:46 PDT 2024; root:xnu-10063.141.1~2/RELEASE_ARM64_T8112
+CPU Count:          8
+Pytorch Version:    2.9.1
+CUDA Version:       CUDA is not available
+GPU Count:          WARNING: Exception was raised when calculating GPU count (AssertionError)
+Memory Avail:       3.32 GB / 16.00 GB (20.7%)
+Disk Space Avail:   80.50 GB / 228.27 GB (35.3%)
+===================================================
+Setting presets to: chronos2
+
+Fitting with arguments:
+{'enable_ensemble': False,
+ 'eval_metric': MASE,
+ 'freq': 'h',
+ 'hyperparameters': {'Chronos2': {'model_path': 'autogluon/chronos-2'}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 24,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 42,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': True,
+ 'target': 'cnt',
+ 'verbosity': 2}
+
+train_data with frequency 'IRREG' has been resampled to frequency 'h'.
+Provided train_data has 12165 rows (NaN fraction=1.0%), 1 time series. Median time series length is 12165 (min=12165, max=12165). 
+
+Provided data contains following columns:
+	target: 'cnt'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'MASE'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2026-05-30 14:57:49
+Models that will be trained: ['Chronos2']
+Training timeseries model Chronos2. 
