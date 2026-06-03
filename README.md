@@ -249,3 +249,9 @@ outputs/figures/final_model_comparison_mase.png
 - Amazon Science summary: [Chronos: Learning the language of time series](https://www.amazon.science/publications/chronos-learning-the-language-of-time-series)
 - AutoGluon TimeSeries Chronos documentation: [Forecasting with Chronos-2](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-chronos.html)
 - Chronos 2 model card: [autogluon/chronos-2](https://huggingface.co/autogluon/chronos-2)
+
+## AI Usage Statement
+
+AI assistance was used during this project mainly to support code writing, debugging and repository organization. In particular, AI helped with structuring notebooks, fixing implementation errors, improving reproducibility and drafting parts of the README.
+
+All modelling decisions, methodological choices, dataset preparation, final evaluation setup and interpretation of results were reviewed and accepted by the project team. The final code, outputs and conclusions remain the responsibility of the authors.
